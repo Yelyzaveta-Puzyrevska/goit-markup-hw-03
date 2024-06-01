@@ -85,6 +85,9 @@ img {
   display: flex;
 }
 
+.menu-item {
+}
+
 .kontakt-list {
   display: flex;
   gap: 40px;
@@ -316,8 +319,6 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-header {
