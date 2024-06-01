@@ -91,6 +91,7 @@ img {
 .page-header-kontainer {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .main-button {
@@ -299,6 +300,11 @@ img {
 
 .page-navigation {
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu {
