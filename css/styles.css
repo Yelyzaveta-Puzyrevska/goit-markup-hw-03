@@ -117,12 +117,50 @@ img {
   padding-bottom: 24px;
 }
 
+.contact-item {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.contact-item:hover {
+  color: #404bbf;
+}
+
+.contact-item:focus {
+  color: #404bbf;
+}
+
 /* andheader */
 
-.page-header-kontainer {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
+/* 1 section */
+.section-title {
+  background-color: #2e2f42;
+}
+
+.section-title-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  padding-right: 472px;
+  padding-left: 472px;
+  color: D9D9D9;
+  margin-bottom: 48px;
+}
+
+.main-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
 }
 
 .main-button {
@@ -151,8 +189,13 @@ img {
 .main-button:focus {
   background-color: #404bbf;
 }
+/* andsection 1 */
 
-/* section-team */
+.page-header-kontainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .title-team {
   color: #2e2f42;
@@ -164,44 +207,6 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
-}
-
-.contact-item {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-.contact-item:hover {
-  color: #404bbf;
-}
-
-.contact-item:focus {
-  color: #404bbf;
-}
-
-/* header */
-
-/* 1 section */
-
-.section-title {
-  background-color: #2e2f42;
-}
-
-.main-title {
-  font-family: Roboto;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 496px;
 }
 
 .main-section {
@@ -326,16 +331,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-}
-
-.section-title-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  padding-right: 472px;
-  padding-left: 472px;
-  color: D9D9D9;
-  margin-bottom: 48px;
-  max-width: 496px;
 }
 
 .main-section-container {
