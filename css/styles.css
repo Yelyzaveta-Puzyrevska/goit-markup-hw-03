@@ -57,6 +57,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-item-header {
@@ -162,7 +164,6 @@ img {
 
 .section-title {
   background-color: #2e2f42;
-  padding-bottom: 120px;
 }
 
 .main-title {
@@ -190,6 +191,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .main-section-text {
