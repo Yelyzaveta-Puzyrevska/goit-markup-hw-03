@@ -84,8 +84,15 @@ img {
   font-style: normal;
   display: flex;
 }
+
 .kontakt-list {
   display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.menu-item {
 }
 
 .page-header-kontainer {
@@ -296,6 +303,8 @@ img {
   padding-right: 15 px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .page-navigation {
@@ -315,6 +324,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .section-title-container {
