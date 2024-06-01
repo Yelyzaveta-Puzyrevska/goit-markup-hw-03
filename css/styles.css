@@ -138,29 +138,17 @@ img {
 
 /* 1 section */
 
-.container-title {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15 px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
 .section-title {
   background-color: #2e2f42;
 }
 
 .section-title-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
   padding-right: 472px;
   padding-left: 472px;
   color: D9D9D9;
   margin-bottom: 48px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
@@ -220,6 +208,7 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .main-section {
@@ -256,9 +245,15 @@ img {
   gap: 24px;
 }
 
+.section-team-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-team-tittle {
   background-color: #ffffff;
   width: calc((100%-72) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
@@ -268,6 +263,8 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-profession {
@@ -277,6 +274,7 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 /* 4 section */
@@ -315,6 +313,11 @@ img {
   letter-spacing: 0.02em;
 }
 
+.name_profession {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 /* footer */
 
 .footer-web {
@@ -348,9 +351,13 @@ img {
 
 .main-section-container {
   display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .sec-cont {
   gap: 24px;
+  display: flex;
 }
 
 .main-list-cont {
