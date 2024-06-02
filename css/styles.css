@@ -301,9 +301,9 @@ img {
   border: 1px solid #e7e9fc;
 }
 
-.portfolio-element {
-  width: calc((100%-48) / 3);
-}
+/* .portfolio-element { */
+/* width: calc((100%-48) / 3); */
+/* } */
 
 .portfolio-inf {
   padding: 32px 16px;
@@ -316,6 +316,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: calc((100%-48) / 3);
 }
 
 .portfolio-title {
