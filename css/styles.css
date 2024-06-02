@@ -249,6 +249,7 @@ img {
 .section-team-tittle {
   width: calc((100%-72) / 4);
   border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
 }
 
 .team {
@@ -339,6 +340,13 @@ img {
 
 /* footer */
 
+.footer-web-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 1020px;
+  margin-left: 158px;
+  max-width: 264px;
+}
 .footer-web {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -353,6 +361,7 @@ img {
   color: #4d5ae5;
 
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
