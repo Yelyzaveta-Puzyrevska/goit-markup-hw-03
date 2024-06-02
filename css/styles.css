@@ -140,8 +140,7 @@ img {
 
 .section-title {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .section-title-container {
@@ -214,8 +213,7 @@ img {
 }
 
 .main-section {
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .visually-hidden {
