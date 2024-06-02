@@ -296,9 +296,10 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-
+.section-portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
-
 .portfolio-inf {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
