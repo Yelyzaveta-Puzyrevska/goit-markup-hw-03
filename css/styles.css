@@ -301,6 +301,10 @@ img {
   border: 1px solid #e7e9fc;
 }
 
+.portfolio-element {
+  width: calc((100%-48px) / 3);
+}
+
 .portfolio-inf {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -311,7 +315,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;
+  /* row-gap: 48px; */
 }
 
 .portfolio-title {
