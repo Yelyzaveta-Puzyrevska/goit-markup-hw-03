@@ -192,7 +192,7 @@ img {
 }
 /* andsection 1 */
 
-.page-header-kontainer {
+.page-header-container {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
