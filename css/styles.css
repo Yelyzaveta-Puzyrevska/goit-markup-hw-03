@@ -313,6 +313,10 @@ img {
   row-gap: 48px;
 }
 
+.portfolio-cont {
+  width: calc((100%-48px) / 3);
+}
+
 .portfolio-title {
   color: #2e2f42;
   font-family: Roboto;
@@ -394,8 +398,4 @@ img {
   color: #f4f4fd;
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.portfolio-cont {
-  width: calc((100% - 48px) / 3);
 }
