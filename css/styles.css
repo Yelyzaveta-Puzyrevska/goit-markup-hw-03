@@ -296,8 +296,7 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.portfolio-list {
-  width: calc((100%-48px) / 3);
+
 }
 
 .portfolio-inf {
@@ -389,8 +388,13 @@ img {
 .main-list-cont {
   width: calc((100% - 72px) / 4);
 }
+
 .logo-footer {
   color: #f4f4fd;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.portfolio-cont {
+  width: calc((100% - 48px) / 3);
 }
